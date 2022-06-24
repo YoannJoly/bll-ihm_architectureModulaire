@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="fr.yoann.architecturemodulaire.ihm.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label text="Référence :"/>
+    <Label text="Libellé :"/>
+    <Label text="Marque :"/>
+    <Label text="Prix :"/>
+    <Label text="Quantité :"/>
+    <Label text="Type de produit :"/>
+    <Label text="Poids :"/>
+    <Label text="Date de péremption :"/>
+
+    <VBox spacing="10.0">
+        <Button text="Précédent" onAction="#onPrecedentButtonClick"/>
+        <Button text="Nouveau" onAction="#onNewButtonClick"/>
+        <Button text="Enregistrer" onAction="#onSaveButtonClick"/>
+        <Button text="Supprimer" onAction="#onDeleteButtonClick"/>
+        <Button text="Suivant" onAction="#onNextButtonClick"/>
+    </VBox>
+
+</VBox>
